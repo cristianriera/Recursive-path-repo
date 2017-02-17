@@ -4,13 +4,12 @@ function buildPath(p,n){
   for(){
     let r = Math.random()
     if(r<=p){
-      return false
+      path[]= false
     }
     else{
-      return true
+      path[]= true
     }
   }
-  path[]
   return path;
 }
 
